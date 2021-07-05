@@ -1,0 +1,18 @@
+{
+    "name": "Insta Gesture Actions",
+    "description": "An extension to do certain actions on instagram based on gestures.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.instagram.com/"
+            ],
+            "js": [
+                "tf.min.js",
+                "teachablemachine-pose.min.js",
+                "background.js"
+            ]
+        }
+    ]
+}
